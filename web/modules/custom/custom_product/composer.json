@@ -1,0 +1,13 @@
+{
+    "name": "custom_product",
+    "type": "drupal-module",
+    "description": "My Custom Product Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/custom_product",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/custom_product",
+        "source": "http://cgit.drupalcode.org/custom_product",
+    },
+}
