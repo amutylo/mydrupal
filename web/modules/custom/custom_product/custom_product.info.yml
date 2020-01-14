@@ -1,5 +1,0 @@
-name: 'Custom Product'
-type: module
-description: 'My Custom Product Module'
-core: 8.x
-package: 'Custom'
