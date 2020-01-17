@@ -23,6 +23,7 @@
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
         "drupal/state_machine": "^1.0@RC",
+        "drupal/views_bulk_operations": "^3.3",
         "psr/container": "^1.0",
         "symfony/dom-crawler": "^3.4"
     },
