@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ce34269897f14b1fdb2be7d9a271dbc",
+    "content-hash": "1eb803d7d8e1552167138bdd7d7edc42",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1250,6 +1250,76 @@
             "homepage": "http://drupal.org/project/commerce",
             "support": {
                 "source": "https://git.drupalcode.org/project/commerce"
+            }
+        },
+        {
+            "name": "drupal/config_inspector",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_inspector.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/config_inspector-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "dc92ceb8fd3e289f9e5c058692346e4b9ef3fa74"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1569419586",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Gábor Hojtsy",
+                    "homepage": "https://www.drupal.org/user/4166"
+                },
+                {
+                    "name": "Jose Reyero",
+                    "homepage": "https://www.drupal.org/user/4299"
+                },
+                {
+                    "name": "aspilicious",
+                    "homepage": "https://www.drupal.org/user/172527"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
+                },
+                {
+                    "name": "vuil",
+                    "homepage": "https://www.drupal.org/user/3568458"
+                }
+            ],
+            "description": "Provides a configuration data and structure inspector tool",
+            "homepage": "https://drupal.org/project/config_inspector",
+            "support": {
+                "source": "https://cgit.drupalcode.org/config_inspector",
+                "issues": "https://drupal.org/project/issues/config_inspector",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
             }
         },
         {
@@ -2770,6 +2840,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -2816,6 +2887,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
