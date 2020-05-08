@@ -22,3 +22,5 @@
 
 # Ignore .env files as they are personal
 /.env
+/web/modules/custom/recycle_bin/
+/web/modules/custom/fruity_views/
